@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony WH‑1000XM6 — Silence, Perfected.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Premium Glassmorphism Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">WH‑1000XM6</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-links">
+                <a href="#overview" class="nav-link">Overview</a>
+                <a href="#technology" class="nav-link">Technology</a>
+                <a href="#noise-cancelling" class="nav-link">Noise&nbsp;Cancelling</a>
+                <a href="#specs" class="nav-link">Specs</a>
+                <a href="#buy" class="nav-link">Buy</a>
+            </div>
+
+            <!-- Desktop CTA -->
+            <div class="nav-cta">
+                <button class="cta-button">
+                    <span class="cta-text">Experience&nbsp;WH‑1000XM6</span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+            <div class="mobile-nav-links">
+                <a href="#overview" class="mobile-nav-link">Overview</a>
+                <a href="#technology" class="mobile-nav-link">Technology</a>
+                <a href="#noise-cancelling" class="mobile-nav-link">Noise Cancelling</a>
+                <a href="#specs" class="mobile-nav-link">Specs</a>
+                <a href="#buy" class="mobile-nav-link">Buy</a>
+            </div>
+            <button class="mobile-cta-button">
+                Experience WH‑1000XM6
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Canvas Container for Image Sequence -->
+    <main class="canvas-container">
+        <div class="canvas-wrapper">
+            <canvas id="headphonesCanvas"></canvas>
+            <div class="canvas-overlay"></div>
+
+            <!-- Scroll-driven Text Sections -->
+            <div class="story-sections">
+                <!-- Hero Section (0-15%) -->
+                <section class="story-section hero-section" data-scroll-range="0,15">
+                    <div class="section-content">
+                        <h1 class="hero-title">
+                            <span class="gradient-text">Sony WH‑1000XM6</span>
+                        </h1>
+                        <h2 class="hero-subtitle">
+                            Silence, perfected.
+                        </h2>
+                        <p class="hero-description">
+                            Flagship wireless noise cancelling, re‑engineered for a world that never stops.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Engineering Reveal (15-40%) -->
+                <section class="story-section engineering-section" data-scroll-range="15,40">
+                    <div class="section-content left-align">
+                        <h2 class="section-title">
+                            <span class="gradient-text">Precision‑engineered for silence</span>
+                        </h2>
+                        <p class="section-body">
+                            Custom drivers, sealed acoustic chambers, and optimized airflow deliver studio‑grade clarity. Every component is tuned for balance, power, and comfort—hour after hour.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Noise Cancelling (40-65%) -->
+                <section class="story-section noise-section" data-scroll-range="40,65">
+                    <div class="section-content right-align">
+                        <h2 class="section-title">
+                            <span class="gradient-text">Adaptive noise cancelling, redefined</span>
+                        </h2>
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <div class="feature-icon">→</div>
+                                <p class="feature-text">Multi‑microphone array listens in every direction</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">→</div>
+                                <p class="feature-text">Real‑time noise analysis adjusts to your environment</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">→</div>
+                                <p class="feature-text">Your music stays pure—planes, trains, and crowds fade away</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sound & Upscaling (65-85%) -->
+                <section class="story-section sound-section" data-scroll-range="65,85">
+                    <div class="section-content center-align">
+                        <h2 class="section-title">
+                            <span class="gradient-text">Immersive, lifelike sound</span>
+                        </h2>
+                        <p class="section-body large">
+                            High‑performance drivers unlock detail, depth, and texture in every track. AI‑enhanced upscaling restores clarity to compressed audio, so every note feels alive.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Reassembly & CTA (85-100%) -->
+                <section class="story-section cta-section" data-scroll-range="85,100">
+                    <div class="section-content center-align">
+                        <h2 class="section-title large">
+                            <span class="gradient-text">Hear everything. Feel nothing else.</span>
+                        </h2>
+                        <h3 class="section-subtitle">
+                            WH‑1000XM6. Designed for focus, crafted for comfort.
+                        </h3>
+                        <div class="cta-group">
+                            <button class="primary-cta">
+                                <span class="cta-label">Experience WH‑1000XM6</span>
+                            </button>
+                            <button class="secondary-cta">
+                                <span class="cta-label">See full specs</span>
+                            </button>
+                        </div>
+                        <p class="micro-copy">
+                            Engineered for airports, offices, and everything in between.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-line">
+            <div class="scroll-progress"></div>
+        </div>
+        <span class="scroll-text">Scroll to explore</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
